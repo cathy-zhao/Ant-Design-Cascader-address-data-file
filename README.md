@@ -1,5 +1,6 @@
-# antd-Cascader-address-data
-一个用于antd Cascader组件的省市区联动的数据！
+# Ant-Design-Cascader-address-data-file
+
+支持antd省市区选择控件数据格式的前端数据
 
 数据取自：[http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201608/t20160809_1386477.html](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201608/t20160809_1386477.html "http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201608/t20160809_1386477.html")
 
