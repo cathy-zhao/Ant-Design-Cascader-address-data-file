@@ -1,8 +1,9 @@
 var execReg=/<span lang="EN-US">(.*?)<span>&nbsp;&nbsp;&nbsp;&nbsp; <\/span><\/span><span style="font-family: 宋体">(.*?)<\/span>/;
 var resArr=[];
 var sign=null;
-for(var i=0,len=document.getElementsByClassName("MsoNormal").length;i<len;i++){
-  var data=document.getElementsByClassName("MsoNormal")[i].innerHTML;
+var docClass=document.getElementsByClassName("MsoNormal");
+for(var i=0,len=docClass.length;i<len;i++){
+  var data=docClass[i].innerHTML;
   var result=execReg.exec(data);
   if(len==0){
     sign=result[1].slice(0,2);
